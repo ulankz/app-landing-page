@@ -29,11 +29,8 @@
 #main{
 
 
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
-	width: auto;
-
+	
 }
 	ol, ul {
 		list-style: none;
@@ -601,10 +598,9 @@
 
 /* Form */
 
-	form {
-	margin: 0em auto;
-	/*align:center;*/
+	#mc_embed_signup {
 	
+
 	}
 
 		form .message {
@@ -1073,19 +1069,13 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		position: relative;
-
-	/*margin: 0em auto;*/
-	align:center;
-	width: 500px;
-	margin-left: 25em;
-
+		margin-left: 36%;
 	}
 
 		#mc-embedded-subscribe-form input[type="text"],
 		#mc-embedded-subscribe-form input[type="password"],
 		#mc-embedded-subscribe-form input[type="email"] {
-			width: 18em;
+			width: 14em;
 		}
 
 		#mc-embedded-subscribe-form > * {
@@ -1103,6 +1093,8 @@
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
+				margin-left: 0%;
+
 			}
 
 				#mc-embedded-subscribe-form input[type="type"],
@@ -1130,6 +1122,7 @@
 /* Footer */
 
 	#footer {
+		clear: both;
 		-moz-transition: opacity 0.5s ease-in-out;
 		-webkit-transition: opacity 0.5s ease-in-out;
 		-ms-transition: opacity 0.5s ease-in-out;
@@ -1138,9 +1131,10 @@
 		color: rgba(255, 255, 255, 0.5);
 		left: 4em;
 		opacity: 0.5;
-		clear: both;
-		position: fixed;
-		margin-left: 28em;
+ 
+ padding-top:10%; 
+    
+    margin-bottom: -20%;
 
 		
 	}
@@ -1218,3 +1212,8 @@
 			}
 
 		}
+
+
+
+
+
