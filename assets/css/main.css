@@ -600,6 +600,8 @@
 
 	#mc_embed_signup {
 	
+width:310px;
+margin:0 auto;
 
 	}
 
@@ -1069,7 +1071,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		margin-left: 36%;
+		/*margin-left: 36%;*/
 	}
 
 		#mc-embedded-subscribe-form input[type="text"],
@@ -1093,7 +1095,7 @@
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
-				margin-left: 0%;
+				/*margin-left: 0%;*/
 
 			}
 
