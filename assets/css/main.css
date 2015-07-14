@@ -600,7 +600,9 @@
 
 	#mc_embed_signup {
 	
-width:320px;
+width:290px;
+padding: 0 0 0 5px;
+
 margin:0 auto;
 
 	}
